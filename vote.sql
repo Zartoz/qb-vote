@@ -1,0 +1,6 @@
+CREATE TABLE votes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    citizenid VARCHAR(50),
+    option VARCHAR(50),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
